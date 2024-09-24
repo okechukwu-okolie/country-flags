@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 60px;
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.249);
+
+    h1{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    div{
+        display:flex;
+    }
+}
+
+#body-bg-color{
+    background-color: rgba(211, 211, 211, 0.412);
+}
+#body{
+   
+    height: 90vh;
+    max-width: 80%;
+    margin: auto;
+
+    #filter-id{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+
+        input{
+            width: 330px;
+            height: 40px;
+            text-align: right;
+            border: none;
+            box-shadow: 0px 0px 4px rgba(0, 0, 3, 0.103);
+        }
+
+        select{
+            width: 180px;
+            height: 40px;
+            text-align: right;
+            border: none;
+            box-shadow: 0px 0px 4px rgba(0, 0, 3, 0.133);
+        }
+    }
+
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    gap: 20px;
+    
+    .card{
+        width: 200px;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.145);
+        background-color: white;
+        margin-bottom: 35px;
+
+        img{
+            width: 200px;
+            box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.364);
+           }
+    
+        h4{
+            font-weight: 500;
+            margin: 7px 0px;
+            font-size:22px;
+            width: inherit;
+            margin-left: 5px;
+        }
+        h5{
+            font-weight: 800;
+            margin: 5px 0px;
+            margin-left: 5px;
+        }
+        span{
+            font-weight: 400;
+            margin: 5px 0px;
+            padding-left: 7px;
+        }
+    }
+    
+      
+    
+     
+}}
